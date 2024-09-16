@@ -1,0 +1,17 @@
+.class-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.class-name.active {
+    display: flex;
+}
+
+.class-name:not(.active) {
+    display: none;
+}
+
+/*. {}*/
